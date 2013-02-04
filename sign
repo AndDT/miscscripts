@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gpg --output $1.asc--armor --detach-sign $1

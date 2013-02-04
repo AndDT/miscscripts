@@ -1,0 +1,12 @@
+#!/bin/bash
+
+DATE=`date +%Y-%m-%d\ %H-%M-%S`
+FILE=$HOME/Screenshots/$DATE.png
+case "$1" in
+"")
+exec scrot "$FILE"
+;;
+*)
+exec scrot "$1"
+;;
+esac

@@ -1,4 +1,4 @@
 miscscripts
 ===========
 
-Various scripts I made
+Various scripts I got

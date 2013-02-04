@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ldd `which $1` |grep "not found" |awk {'print $1'}
