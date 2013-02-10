@@ -5,13 +5,13 @@ Various scripts I got
 
 Description:
 
-./asf2wav.sh — converts asf to wav in current folder and subfolders
+./asf2wav.sh — converts asf to wav in current folder
 
 ./screenshot — wrapper for scrot
 
 ./cups-pdf-renamer — obviously :)
 
-./wav2mp3.sh — converts wav to mp3 with 192 kbit/s bitrate in current folder and subfolders
+./wav2mp3.sh — converts wav to mp3 with 192 kbit/s bitrate in current folder
 
 ./lower — lower names in current folder
 
@@ -22,3 +22,5 @@ Description:
 ./missinglibs — prints names of missing shared objects for executables in $PATH
 
 ./brainfuck — brainfuck interpreter I found (written in Perl)
+
+./mid2wav.sh — converts midi files (with timidity++) to wav
